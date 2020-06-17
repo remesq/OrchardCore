@@ -25,6 +25,15 @@ Here are some available functions:
 
 You can add new functions by implementing an `IGlobalMethodProvider`. See [Scripting](../Scripting/README.md#layers-orchardcorelayers)
 
+## Examples
+
+Here are some examples of using the Layer rules:
+
+| Function | Example | Description |
+| -------- | ------- | ----------- |
+| `url(url: String): Boolean` | `url("/my/url")` | Single url rule
+|  | `url("/my/url") | url("/my/other/url")` | Multiple url rule
+
 ## Zones
 
 The zones that are listed can be set in the `Design > Settings > Zones` admin page.
